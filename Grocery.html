@@ -1,0 +1,31 @@
+<html>
+<body>
+
+  <h3>Grocery List</h3>
+
+  <input type="text" id="storeNameBox" placeholder="Enter Grocery Store Name" />
+  <button id="btnToAddStoreName"> Add </button>
+
+<ul id="groceryNameList">
+</ul>
+
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDhO-1g4qlrtfk6IMlasGCDTrEBqNokEQY",
+    authDomain: "grocerylist-8832c.firebaseapp.com",
+    databaseURL: "https://grocerylist-8832c.firebaseio.com",
+    projectId: "grocerylist-8832c",
+    storageBucket: "",
+    messagingSenderId: "281085295916"
+  };
+  firebase.initializeApp(config);
+</script>
+
+    <script src = "app.js"> </script>
+    </html>
